@@ -385,6 +385,19 @@ input {
   color: #434343;
 }
 
+.footer{
+  background-color: #296c82;
+  font-size:25px; 
+  display: flex;
+  margin: 0 auto;
+  color: #ffffff;
+  width: 100%;
+  position: fixed; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 10px;
+  justify-content: center;
+}
+
 @media (max-width: 1024px) {
   .selection__list {
     padding-right: 30px;
